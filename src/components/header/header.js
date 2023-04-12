@@ -4,9 +4,9 @@ import { IconSearch } from '@tabler/icons-react';
 function Header() {
     return (
         <Flex h={50} align='center' style={{ background: "#339AF0" }} justify='center'>
-            <Flex w={1434} justify="space-between">
-                <Flex>Hotline đặt hàng 18006013</Flex>
-                <Flex align='center'>
+            <Flex w={1434} justify="space-between" align="center">
+                <Flex style={{ marginLeft: "200px" }}>Hotline đặt hàng 18006013</Flex>
+                <Flex align='center' justify="center" gap="xl" >
                     <div to="#">Tra cứu tình trạng đơn hàng</div>
                     <div to="#">Hệ thống Showroom</div>
                     <Input
